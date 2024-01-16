@@ -1,10 +1,15 @@
 <style>@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&family=Work+Sans:wght@400;500;600;700;800&display=swap');
 
 </style>
+/* shared styles */
 
 * {
     font-family: 'Open Sans', sans-serif;
     font-family: 'Work Sans', sans-serif;
+}
+
+.button-primary{
+    
 }
 
 /* header styles */
@@ -34,4 +39,19 @@ nav li{
 nav li a{
     text-decoration: none;
     color:  #424242;
+}
+
+/* banner styles */
+.banner-content{
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+.banner-title{
+    font-size: 4rem;
+    font-weight: 700;
+    color: #131313;
+}
+.banner-description{
+    color: #727272;
 }
